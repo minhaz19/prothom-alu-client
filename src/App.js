@@ -17,7 +17,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/category" component={Category} />
+          <PrivateRoute path="/category" component={Category} />
           <PrivateRoute path="/admin" component={Admin} />
           <PrivateRoute path="/news/:id" component={AllNews} />
         </Switch>
