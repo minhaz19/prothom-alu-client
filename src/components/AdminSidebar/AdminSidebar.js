@@ -44,14 +44,6 @@ const AdminSidebar = () => {
                         <Link to="/admin/addNews">Add News</Link>
                     </NavText>
                 </NavItem>
-                <NavItem eventKey="logout">
-                    <NavIcon>
-                        <span onClick={signOut}> <FontAwesomeIcon icon={faSignOutAlt} style={{ fontSize: '1.75em' }} /></span>
-                    </NavIcon>
-                    <NavText>
-                        <span onClick={signOut}>Logout</span>
-                    </NavText>
-                </NavItem>
             </SideNav.Nav>
         </SideNav>
 
